@@ -1,4 +1,4 @@
-# Data Science Notebook
+# Deep Learning Notebook
 
 ## Additional Packages Included
 
