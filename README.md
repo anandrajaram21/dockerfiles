@@ -14,3 +14,5 @@ docker pull <image tag>
 ```
 
 After pulling the image, read the README.md file in the corresponding folder (with the same name as that of the image that you pulled, for example, navigate to deep-learning-notebook if you pulled the image with the tag anandrajaram21/jupyter-environments:deep-learning)
+
+## All the Dockerfiles here are based on the images provided by the Jupyter Team on Docker over [here](https://jupyter-docker-stacks.readthedocs.io/en/latest/#). So huge thanks to them for providing us with such brilliant Docker images to build upon.
