@@ -33,4 +33,11 @@ docker start <the name you gave to the --name flag while running the container i
 docker exec -it <name you provided to the --name flag in the previous command> bash
 ```
 
+Or you can also run the start.sh script (you can change the name of your container in the .sh file) with the following commands
+
+```
+chmod +x start.sh # This is to allow the start.sh file to be executed
+./start.sh
+```
+
 As usual, you can type `jupyter notebook` here and a Jupyter Notebook server fires up.
