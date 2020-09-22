@@ -19,3 +19,5 @@ RUN pip install --quiet --no-cache-dir streamlit
 RUN pip install --quiet --no-cache-dir keras-tuner
  
 RUN jupyter labextension install jupyterlab-plotly@4.10.0
+
+RUN pip install --quiet --no-cache-dir statsmodels==0.12.0

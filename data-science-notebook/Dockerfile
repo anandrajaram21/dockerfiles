@@ -97,3 +97,5 @@ RUN pip install --quiet --no-cache-dir plotly
 RUN pip install --quiet --no-cache-dir streamlit 
 
 RUN jupyter labextension install jupyterlab-plotly@4.10.0
+
+RUN pip install --quiet --no-cache-dir statsmodels==0.12.0
